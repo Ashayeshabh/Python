@@ -1,0 +1,7 @@
+import array as k
+y=k.array("i",[])
+for i in range(0,10):
+    value=int(input("enter an integer value"))
+    y.append(value)
+total=sum(y)
+print(total)
