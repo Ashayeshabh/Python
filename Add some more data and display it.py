@@ -1,10 +1,8 @@
+import os
+if os.path.exists("sample.txt"):
+    os.remove("sample.txt")
+else:
+    ("file doesn't exists")    
 file1=open("sample.txt","w")
-file1.write("Holi is a National festival of India.")
-file1.close()
-file1=open("sample.txt","a")
-file1.write("Durga Puja is a festival of India.")
-file1.close()
-file1=open("sample.txt","r")
-contents=file1.read()
-print(contents)
+file1.write("Hello World")
 file1.close()
