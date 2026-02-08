@@ -1,0 +1,10 @@
+file1=open("abc.py","w")
+file1.write("India is my country")
+file1.close()
+file1=open("abc.py","a")
+file1.write(" ")
+file1.close()
+file1=open("abc.py","r")
+content=file1.read()
+print(content)
+file1.close
