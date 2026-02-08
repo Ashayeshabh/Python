@@ -1,0 +1,10 @@
+file1=open("sample.txt","w")
+file1.write("Holi is a National Festival Of India.")
+file1.close()
+file1=open("sample.txt","a")
+file1.write("Durga Puja is a Festival of India")
+file1.close()
+file1=open("sample.txt","r")
+content=file1.read()
+print(content)
+file1.close
